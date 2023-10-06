@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400;700&display=swap');
+
+:root {
+    --roboto: 'Roboto', sans-serif;
+    --jost: 'Jost', sans-serif;
+    --amber:#feea50;
+    --amber-soft: #fbed95;
+    --black:  #101010;
+    --white-smoke: #f7f7f4;
+
+}
+
+* {
+    font-family: var(--jost);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1s;
+    scroll-behavior: smooth;
+}
