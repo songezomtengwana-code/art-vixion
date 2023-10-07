@@ -16,6 +16,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: all 1s;
+    transition: all .5s;
     scroll-behavior: smooth;
+}
+
+@keyframes fadeup {
+    100% {
+        transform: translateY(10px);
+    }
 }
