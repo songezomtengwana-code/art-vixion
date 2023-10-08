@@ -35,27 +35,50 @@
             </section>
         </div>
         <div class="landing-section-image">
+            <img class="landing-section-image-src" src="../../../assets/images/pexels-pixabay-257904.png" alt=""
+                srcset="">
         </div>
     </div>
     <div class="landing-section" id="about">
 
-        <div class="landing-section-image">
-        </div>
+
         <div class="landing-section-content">
-            <div class="landing-section-content-subheader">Paving the way</div>
-            <div class="landing-section-content-header">About Us</div>
+            <div class="landing-section-content-subheader">Get to know us</div>
+            <div class="landing-section-content-header">About the crew</div>
             <div class="landing-section-content-body">
-                Art Vixion: A small NGO with a big passion for music and videography. We are a dedicated music & video publishing company
+                Art Vixion: A small NGO with a big passion for music and videography. We are a dedicated music & video
+                publishing company
                 that specializes in administering audio and audiovisual content. Our mission is to support talented
                 artists and creators by helping them protect their musical works, distribute their content, and ensure
                 they receive fair compensation for their artistry. Through our commitment to fostering harmony in the
                 music industry, we aim to empower artists to share their stories and melodies with the world.
             </div>
-            
+
             <div class="landing-section-content-sroll">
-                <i class="bi bi-arrow-down"></i>
                 <div class="landing-section-content-sroll-indicator">
-                    Scroll Down
+                    Meet the team
+                </div>
+                <i class="bi bi-arrow-down"></i>
+            </div>
+        </div>
+        <div class="landing-section-image" style="background-image: url(../../../assets/images/artist_one.png);">
+
+        </div>
+    </div>
+
+    <!-- Products And Services -->
+    <div class="landing-section" id="about">
+        <div class="landing-section-content width-stretch">
+            <div class="landing-section-content-subheader">Paving the way</div>
+            <div class="landing-section-content-header width-stretch">Products & Services</div>
+            <div class="landing-section-content-body">
+                Our services provide creative solutions for music and videography. We deliver exceptional value and
+                quality to enhance your final product. Explore our offerings today to experience innovation and
+                excellence.
+            </div>
+            <div class="landing-section-content-packages">
+                <div class="landing-section-content-packages-carousel">
+                    <app-package-card [data]="packages_data"></app-package-card>
                 </div>
             </div>
         </div>

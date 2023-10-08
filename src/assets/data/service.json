@@ -1,0 +1,54 @@
+[
+    {
+        "id": "e88b56cb-3cba-4026-9163-57187a514353",
+        "name": "Personal",
+        "description": "",
+        "price": 129.99,
+        "contents": [
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit."
+        ]
+    },
+    {
+        "id": "f1318cd3-d4ef-4ebb-9392-92974bf685cc",
+        "name": "Business",
+        "description": "",
+        "price": 129.99,
+        "contents": [
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit."
+        ]
+    },
+    {
+        "id": "e88b56cb-3cba-4026-9163-57187a514353",
+        "name": "Commerce",
+        "description": "",
+        "price": 129.99,
+        "contents": [
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit."
+        ]
+    },
+    {
+        "id": "a8dffe47-3a70-4b05-919a-c8e57a18928e",
+        "name": "Premuim",
+        "description": "",
+        "price": 129.99,
+        "contents": [
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit.",
+            "Lorem, ipsum dolor sit."
+        ]
+    }
+]
