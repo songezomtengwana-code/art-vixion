@@ -66,6 +66,8 @@
         </div>
     </div>
 
+
+
     <!-- Products And Services -->
     <div class="landing-section" id="about">
         <div class="landing-section-content width-stretch">
@@ -83,4 +85,15 @@
             </div>
         </div>
     </div>
+
+    <!-- The Crew -->
+    <div class="landing-section" id="about" >
+        <div class="landing-section-content width-stretch no-padding viewport-height"  style="background-color: #010101">
+            <div class="landing-section-content-container">
+                <div class="landing-section-content-container-crew" *ngFor="let member of crew">
+                    <img [src]="member.imageuri" alt="" srcset="" />
+                </div>
+            </div>
+        </div>
+    </div>   
 </div>

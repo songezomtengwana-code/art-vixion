@@ -7,5 +7,5 @@ import { PackageModel } from 'src/app/models/package.model';
   styleUrls: ['./package-card.component.scss']
 })
 export class PackageCardComponent {
-  @Input() data?: any
+  @Input() data?: PackageModel[]
 }

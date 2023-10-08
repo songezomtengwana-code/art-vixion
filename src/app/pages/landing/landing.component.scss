@@ -16,7 +16,6 @@
     width: 100vw;
     display: flex;
     flex-flow: row;
-
 }
 
 .landing-section-content {
@@ -144,4 +143,23 @@ img.landing-section-image-src {
     &:hover {
         transform: translateX(10px);
     }
+}
+
+.landing-section-content-container {
+    display: flex;
+    flex-flow: row;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.landing-section-content-container-crew {
+    border: 2px solid var(--amber);
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+}
+
+.landing-section-content-container-crew img {
+    min-height: 50vh;
+    max-height: 100vh;
 }

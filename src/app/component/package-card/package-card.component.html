@@ -1,5 +1,19 @@
-<div class="package" *ngFor="let item of data">
-    <div class="package-container">
-        {{item.name}}
+<div class="carousel">
+    <div class="pricing-card" *ngFor="let item of data">
+        <div class="glass-effect">
+            <img src="../../../assets/images" alt="" class="pricing-card-image">
+            <div class="card-title"> {{item.name}}</div>
+            <div class="card-subtitle"> {{item.description}}</div>
+            <p class="card-price">R{{item.price}}</p>
+            <div class="spacer"></div> 
+            <div class="card-features">
+                <div class="card-features-header">
+                    <div class="card-features-header-title">Features</div>
+                    <a href="#" class="card-features-header-all">All</a>
+                </div>
+                <div class="card-feature-content" *ngFor="let content of item.contents"><i class="bi bi-check-circle"></i>{{content}}</div>
+            </div>
+            <button class="card-button">Submit</button>
+        </div>
     </div>
 </div>

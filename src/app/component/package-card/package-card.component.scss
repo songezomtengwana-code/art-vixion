@@ -1,0 +1,76 @@
+.carousel {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.pricing-card {
+    background: var(--white-smoke);
+    padding: 2.5rem;
+    min-width: 15vw;
+}
+
+img.pricing-card-image {
+    height: 10vh;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.card-subtitle {
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+p.card-price {
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.spacer {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 1px;
+    background: var(--bs-gray-400);
+}
+
+.card-features-header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.card-features-header-title {
+    font-weight: bold;
+}
+
+a.card-features-header-all {
+    font-weight: 600;
+    color: var(--bs-gray-600);
+    font-size: 0.85rem;
+}
+
+.card-feature-content {
+    display: flex;
+    flex-flow: row;
+    gap: .5rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+
+button.card-button {
+    width: 100%;
+    padding: .5rem;
+    margin-top: 1.5rem;
+    background: var(--amber);
+    border: 1px solid var(--amber);
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+}
