@@ -1,0 +1,14 @@
+<div class="blogs-container">
+    <a href="#" class="blogs-container-main" *ngFor="let item of articles">
+        <div class="blog-container-main-image">
+            <img [src]="item.image" style="height: 17.5vh;" class="blogs-container-main-image-src" />
+        </div>
+        <div class="blogs-container-main-content">
+            <div class="blog-container-main-content-date">
+               {{ item.condensed_date.substring(0, 16) }}
+            </div>
+            <div class="blogs-container-main-content-title">Mr & Ms Raymond Mhlaba Competition</div>
+        </div>
+    </a>
+    
+</div>

@@ -1,0 +1,56 @@
+[
+    {
+        "id": "20032413343-343242-452452-45-42525",
+        "title": "Mr & Ms Sakhululeka Competition",
+        "condensed_date": "Sun Oct 08 2023 18:16:41 GMT+0200 (South Africa Standard Time)",
+        "numerical_date": 1696781832231,
+        "author": "Art Vixion",
+        "image": "https://firebasestorage.googleapis.com/v0/b/art-vixion.appspot.com/o/assests%2Flanding-enhance.jpg?alt=media&token=8f11cecf-4165-434e-9447-c6d55e05b5e9&_gl=1*1ofhlqw*_ga*MjU5NTY4Nzg2LjE2ODE1MTY0ODI.*_ga_CW55HF8NVT*MTY5Njc4MjI4NS42Ny4xLjE2OTY3ODMwMzcuMTUuMC4w",
+        "tags": ["Modelling", "Beauty Contest"],
+        "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, dolores provident reprehenderit nemo esse nam reiciendis blanditiis quia quas a tempore et maxime. Consectetur reiciendis, eius soluta sed omnis beatae quaerat, praesentium, dicta tempore quia eligendi? Laboriosam ducimus repellat et aut, debitis voluptates voluptatum? Labore reprehenderit qui ex! Vitae modi ea repudiandae ullam harum eum maiores sequi quas dicta dolorum laborum magnam et, ex excepturi. Odit molestias facere excepturi modi aspernatur sed tenetur unde commodi officia dolore accusamus illo iusto rerum optio voluptate nostrum, velit dicta tempora. Dicta, tempora ipsa. Asperiores deserunt sint amet, incidunt ipsum odio voluptatem autem molestias.",
+        "comments": [
+            {
+                "id":"20032413343-343242-452452-45-42533",
+                "body": "Great Work",
+                "author": "John Doe",
+                "createdAt": "Sun Oct 08 2023 18:24:27 GMT+0200 (South Africa Standard Time)"
+            }
+        ]
+    },
+    {
+        "id": "20032413343-343242-452452-45-42525",
+        "title": "Mr & Ms Thubalethu Competition",
+        "condensed_date": "Sun Oct 08 2023 18:16:41 GMT+0200 (South Africa Standard Time)",
+        "numerical_date": 1696781832231,
+        "author": "Art Vixion",
+        "image": "https://firebasestorage.googleapis.com/v0/b/art-vixion.appspot.com/o/assests%2Flanding-enhance.jpg?alt=media&token=8f11cecf-4165-434e-9447-c6d55e05b5e9&_gl=1*1ofhlqw*_ga*MjU5NTY4Nzg2LjE2ODE1MTY0ODI.*_ga_CW55HF8NVT*MTY5Njc4MjI4NS42Ny4xLjE2OTY3ODMwMzcuMTUuMC4w",
+        "tags": ["Modelling", "Beauty Contest"],
+        "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, dolores provident reprehenderit nemo esse nam reiciendis blanditiis quia quas a tempore et maxime. Consectetur reiciendis, eius soluta sed omnis beatae quaerat, praesentium, dicta tempore quia eligendi? Laboriosam ducimus repellat et aut, debitis voluptates voluptatum? Labore reprehenderit qui ex! Vitae modi ea repudiandae ullam harum eum maiores sequi quas dicta dolorum laborum magnam et, ex excepturi. Odit molestias facere excepturi modi aspernatur sed tenetur unde commodi officia dolore accusamus illo iusto rerum optio voluptate nostrum, velit dicta tempora. Dicta, tempora ipsa. Asperiores deserunt sint amet, incidunt ipsum odio voluptatem autem molestias.",
+        "comments": [
+            {
+                "id":"20032413343-343242-452452-45-42533",
+                "body": "Great Work",
+                "author": "John Doe",
+                "createdAt": "Sun Oct 08 2023 18:24:27 GMT+0200 (South Africa Standard Time)"
+            }
+        ]
+    },
+    {
+        "id": "20032413343-343242-452452-45-42525",
+        "title": "Mr & Ms Nyibiba Competition",
+        "condensed_date": "Sun Oct 08 2023 18:16:41 GMT+0200 (South Africa Standard Time)",
+        "numerical_date": 1696781832231,
+        "author": "Art Vixion",
+        "image": "https://firebasestorage.googleapis.com/v0/b/art-vixion.appspot.com/o/assests%2Flanding-enhance.jpg?alt=media&token=8f11cecf-4165-434e-9447-c6d55e05b5e9&_gl=1*1ofhlqw*_ga*MjU5NTY4Nzg2LjE2ODE1MTY0ODI.*_ga_CW55HF8NVT*MTY5Njc4MjI4NS42Ny4xLjE2OTY3ODMwMzcuMTUuMC4w",
+        "tags": ["Modelling", "Beauty Contest"],
+        "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, dolores provident reprehenderit nemo esse nam reiciendis blanditiis quia quas a tempore et maxime. Consectetur reiciendis, eius soluta sed omnis beatae quaerat, praesentium, dicta tempore quia eligendi? Laboriosam ducimus repellat et aut, debitis voluptates voluptatum? Labore reprehenderit qui ex! Vitae modi ea repudiandae ullam harum eum maiores sequi quas dicta dolorum laborum magnam et, ex excepturi. Odit molestias facere excepturi modi aspernatur sed tenetur unde commodi officia dolore accusamus illo iusto rerum optio voluptate nostrum, velit dicta tempora. Dicta, tempora ipsa. Asperiores deserunt sint amet, incidunt ipsum odio voluptatem autem molestias.",
+        "comments": [
+            {
+                "id":"20032413343-343242-452452-45-42533",
+                "body": "Great Work",
+                "author": "John Doe",
+                "createdAt": "Sun Oct 08 2023 18:24:27 GMT+0200 (South Africa Standard Time)"
+            }
+        ]
+    }
+]

@@ -86,14 +86,42 @@
         </div>
     </div>
 
-    <!-- The Crew -->
-    <div class="landing-section" id="about" >
-        <div class="landing-section-content width-stretch no-padding viewport-height"  style="background-color: #010101">
-            <div class="landing-section-content-container">
-                <div class="landing-section-content-container-crew" *ngFor="let member of crew">
-                    <img [src]="member.imageuri" alt="" srcset="" />
-                </div>
+    <div class="landing-section" id="about">
+        <div class="landing-section-content clear-background half-viewport-height">
+            <div class="landing-section-content-subheader">Connect with us</div>
+            <div class="landing-section-content-header width-stretch color-white">Follow our social pages</div>
+
+        </div>
+        <div class="landing-section-links">
+            <div class="landing-section-links-container">
+                <a href="https://www.facebook.com/profile.php?id=100091063405477"
+                    class="landing-section-links-container-link">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/makhandazonke/" class="landing-section-links-container-link">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="mailto:artvixion14@gmail.com" class="landing-section-links-container-link">
+                    <i class="bi bi-envelope"></i>
+                </a>
+                <a href="#" class="landing-section-links-container-link">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#" class="landing-section-links-container-link">
+                    <i class="bi bi-youtube"></i>
+                </a>
             </div>
         </div>
-    </div>   
+    </div>
+
+    <!-- The Crew -->
+    <div class="landing-section" id="about">
+        <div class="landing-section-content width-stretch quater-viewport-height">
+            <div class="landing-section-content-subheader">Making moves</div>
+            <div class="landing-section-content-header width-stretch">Blogs & News</div>
+            <div class="landing-section-content-blogs">
+                <app-news-card></app-news-card>
+            </div>
+        </div>
+    </div>
 </div>
