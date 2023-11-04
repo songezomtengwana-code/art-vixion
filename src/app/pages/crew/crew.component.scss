@@ -1,0 +1,30 @@
+.crew {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 7.5rem;
+    text-align: center;
+}
+
+.crew-container-header {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--amber);
+}
+
+.crew-container-subheader {
+    font-size: 1.25rem;
+    text-align: center;
+    letter-spacing: 1rem;
+}
+
+.crew-container-section {
+    margin: 3rem 0;
+}
+
+.section-title {
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}

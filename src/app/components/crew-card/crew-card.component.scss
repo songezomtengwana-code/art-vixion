@@ -1,0 +1,60 @@
+.crew {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.crew-card {
+  display: flex;
+  flex-flow: column;
+  gap: 1.5rem;
+  margin: 2rem;
+  background: white;
+  filter: drop-shadow(2px 4px 6px #00000020);
+  padding: 1.5rem;
+
+  &:hover {
+    filter: unset;
+  }
+}
+
+.crew-card-image {
+  height: 40vh;
+  width: 15vw;
+  overflow: hidden;
+  background-image: url(../../../assets/images/makhanda.jpg);
+  background-size: cover;
+  background-position: unset;
+}
+
+.crew-card-details {
+  display: flex;
+  flex-flow: column;
+  gap: 0.5rem;
+}
+
+.crew-card-details-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: var(--amber);
+}
+
+.crew-card-details-name {
+  font-size: 1.175rem;
+  font-weight: bold;
+}
+
+.image-overlay {
+  height: 100%;
+  background: #f2d60590;
+  display: grid;
+  place-content: center;
+}
+
+.image-overlay a {
+  color: black;
+  font-weight: 500;
+  font-size: 1.175rem;
+  text-decoration: none;
+}

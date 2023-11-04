@@ -21,6 +21,7 @@
 // const analytics = getAnalytics(app);
 
 export const environments = {
+    api_uri: 'https://api-art-vixion.onrender.com/api/art-vixion/',
     package_uri: 'http://localhost:4200/assets/data/service.json',
     articles_uri: 'http://localhost:4200/assets/data/news.json',
     logo_clear: 'https://firebasestorage.googleapis.com/v0/b/art-vixion.appspot.com/o/assests%2Fartvixion-logo-removebg-preview.png?alt=media&token=c14dc469-2e4e-40fa-b894-550015f3933f&_gl=1*uyayr9*_ga*MjU5NTY4Nzg2LjE2ODE1MTY0ODI.*_ga_CW55HF8NVT*MTY5NjUyNDk3MC42Mi4xLjE2OTY1MjU0NTguNjAuMC4w',

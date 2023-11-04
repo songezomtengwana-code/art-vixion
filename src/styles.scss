@@ -7,12 +7,14 @@
 :root {
   --roboto: "Roboto", sans-serif;
   --jost: "Jost", sans-serif;
-  --amber: #feea50;
+  // --amber: #feea50;
+  --amber: #f2d600;
   --amber-soft: #fbed95;
   --black: #101010;
   --dark: #2e2e2e;
   --space-mono: "Space Mono", monospace;
   --white-smoke: #f7f7f4;
+  --white: #ffffff;
 }
 
 * {
@@ -20,7 +22,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: 1s !important;
+  transition: .225s !important;
   scroll-behavior: smooth;
   text-decoration-color: var(--amber);
 }
