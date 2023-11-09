@@ -1,13 +1,18 @@
 <div class="crew">
-    <div class="crew-card">
+    <div class="crew-card" *ngFor="let member of crew">
         <div class="crew-card-image">
-            <div class="image-overlay">
+            <!-- 
+                currently commented until a perpose is found for the overlay link
+
+                <div class="image-overlay">
                 <a href="#" class="bi bi-collection-fill">Vist Profile</a>
-            </div>
+            </div> -->
+
+            <img class="crew-card-image-src" [src]="member.image.fileLink" alt="">
         </div>
         <div class="crew-card-details">
-            <div class="crew-card-details-title">CEO</div>
-            <div class="crew-card-details-name">Enkosi Tsosta</div>
+            <div class="crew-card-details-title">{{ member.tags[0] }}</div>
+            <div class="crew-card-details-name">{{ member.name }}</div>
         </div>
     </div>
 </div>

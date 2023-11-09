@@ -1,0 +1,41 @@
+.store {
+  display: flex;
+  flex-flow: column;
+}
+
+.store-container-promotions {
+  height: 65vh;
+  background-image: url(../../../assets/images/logo-clear.png);
+  background-size: 5rem;
+  margin-bottom: 5rem;
+  border-radius: 0 0 1rem 1rem;
+  overflow: hidden;
+}
+
+.store-container-promotions-component {
+  overflow: hidden;
+  display: grid;
+  place-content: center;
+}
+
+.store-container-main {
+  padding: 0rem 10rem;
+}
+
+.main-title {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.main-section {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+}
+
+.main-section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}

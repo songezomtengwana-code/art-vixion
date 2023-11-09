@@ -1,0 +1,47 @@
+.main-section-contents-card {
+  margin: 2rem 0;
+}
+
+.main-section-contents-card {
+  width: 35vh;
+  background: whitesmoke;
+  padding: 1.5rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  filter: drop-shadow(0px 2px 5px #00000020);
+}
+
+.card-container-image {
+  height: 40vh;
+  overflow: hidden;
+  display: grid;
+  place-content: center;
+  border-radius: 0.5rem;
+  background-image: url(../../../assets/images/logo-clear.png);
+  background-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+img.card-container-image-src {
+  height: 40vh;
+  display: none;
+}
+
+.card-container-details {
+  display: flex;
+  flex-flow: column;
+  gap: 0.25rem;
+}
+
+.details-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.details-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--amber);
+  text-align: right;
+  margin-top: 1.5rem;
+}

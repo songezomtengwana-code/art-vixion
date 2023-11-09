@@ -9,6 +9,10 @@ import { NewsCardComponent } from './components/news-card/news-card.component';
 import { CrewComponent } from './pages/crew/crew.component';
 import { CrewCardComponent } from './components/crew-card/crew-card.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { StoreComponent } from './pages/store/store.component';
+import { StoreCardComponent } from './components/store-card/store-card.component';
+import { PlayerComponent } from './pages/player/player.component';
+import { PlayerControlsComponent } from './components/player-controls/player-controls.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { NavigationComponent } from './components/navigation/navigation.componen
     NewsCardComponent,
     CrewComponent,
     CrewCardComponent,
-    NavigationComponent
+    NavigationComponent,
+    StoreComponent,
+    StoreCardComponent,
+    PlayerComponent,
+    PlayerControlsComponent
   ],
   imports: [
     BrowserModule,

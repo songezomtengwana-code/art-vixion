@@ -1,0 +1,41 @@
+<div class="controls">
+    <div class="controls-container" *ngIf="activeTrack">
+        <div class="controls-container-start">
+            <div class="start-art">
+                <img [src]="activeTrack.art.fileLink" alt="" class="start-artimage">
+                
+            </div>
+            <div class="start-details">
+                <div class="start-details-track">{{ activeTrack.title }}</div>
+                <a href="#" class="start-details-artist">{{ activeTrack.artist }} </a>
+                <!--
+                    <div class="start-details-contributes" *ngIf="activeTrack.contributes.length > 0">
+                        <a href="#" class="contributes-name" *ngFor="let feature of activeTrack.contributes">{{ feature }}</a>
+                    </div> 
+                -->
+            </div>
+            <a href="#" class="details-more bi bi-chevron-up"></a>
+        </div>
+        <div class="controls-container-center">
+            <div class="center-controls">
+                <div class="center-controls-icon">
+                    <i class="bi bi-caret-left-fill"></i>
+                    <div class="center-controls-icon-title">prev</div>
+                </div>
+                <div class="center-controls-icon" id="track-state" (click)="handleTrackState()">
+                    <i class="bi bi-pause"></i>
+                    <div class="center-controls-icon-title">pause</div>
+
+                </div>
+                <div class="center-controls-icon">
+                    <i class="bi bi-caret-right-fill"></i>
+                    <div class="center-controls-icon-title">next</div>
+
+                </div>
+            </div>
+        </div>
+        <div class="controls-container-end">
+            <button class="end-button btn"><i class="bi bi-cloud-download-fill"></i> Download</button>
+        </div>
+    </div>
+</div>

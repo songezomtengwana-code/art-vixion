@@ -6,10 +6,11 @@ export interface TrackModel {
     trackId: string,
     art: FileModel,
     year: number,
+    artist: string,
     type: string,
     genre: string,
     contributes: string[],
     title: string,
     urls: TrackUrlModel[]
-    reviews: TrackReviewModel[]
+    reviews?: TrackReviewModel[]
 }

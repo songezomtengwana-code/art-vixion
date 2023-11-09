@@ -1,0 +1,121 @@
+img.start-artimage {
+  height: 7.5vh;
+  /* opacity: .25; */
+}
+
+.controls {
+  position: fixed;
+  bottom: 0;
+  background: transparent;
+  left: 0;
+  right: 0;
+  padding: 2.5rem;
+  display: grid;
+  place-content: center;
+  color: var(--white);
+
+  a {
+    color: whitesmoke;
+  }
+}
+
+.controls-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  min-width: calc(100vw - 50rem);
+  background: var(--white);
+  padding: .5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--black);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-radius: 0.5rem;
+  filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.0823529412));
+}
+
+.start-art {
+  display: flex;
+  flex-flow: row;
+  width: 7.5vh;
+  height: 7.5vh;
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+  background-image: url(../../../assets/images/logo-clear.png);
+  background-size: contain;
+  border-radius: 0.25rem;
+  background-position: center;
+}
+
+.controls-container-start {
+  display: flex;
+  flex-flow: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.start-details {
+  display: flex;
+  flex-flow: column;
+}
+
+.details-more {
+  font-size: 1.175rem;
+  font-weight: bold;
+  color: var(--black);
+  margin-left: 0.5rem;
+}
+.start-details-track {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+a.start-details-artist {
+  color: var(--black);
+  font-size: 1rem;
+}
+
+.controls-container-center {
+  display: grid;
+  place-content: center;
+}
+
+.center-controls {
+  display: flex;
+  flex-flow: row;
+  gap: 2.5rem;
+  text-align: center;
+  align-items: center;
+}
+
+.center-controls-icon i {
+  font-size: 1.5rem;
+}
+
+.center-controls-icon {
+  display: grid;
+  place-content: center;
+  background: var(--black);
+  padding: 0.5rem 1rem;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  cursor: pointer;
+//   &:hover {
+//     filter: drop-shadow(0px 0px 4px var(--dark));
+//   }
+}
+
+.controls-container-end {
+  display: grid;
+  place-content: center;
+}
+
+button.end-button.btn {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.175rem;
+  color: var(--white);
+  text-decoration: underline;
+}

@@ -37,13 +37,13 @@ span.landing-section-content-logo {
 }
 
 .landing-section-content-header {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bold;
   width: 35vw;
 }
 
 .landing-section-content-body {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
   line-height: 2;
@@ -56,7 +56,7 @@ span.landing-section-content-logo {
   gap: 0.5rem;
   display: flex;
   font-weight: 700;
-  font-size: 1.175rem;
+  font-size: 1.15rem;
 }
 
 .landing-section-content-button-secondary.btn {
@@ -65,7 +65,7 @@ span.landing-section-content-logo {
   gap: 0.5rem;
   display: flex;
   font-weight: 700;
-  font-size: 1.175rem;
+  font-size: 1.15rem;
   text-decoration: underline;
 }
 
@@ -82,6 +82,10 @@ section.socials {
   cursor: pointer;
   text-decoration: none;
   color: #282828;
+
+  i {
+    margin-right: .5rem;
+  }
 
   &:hover {
     opacity: 0.5;
@@ -107,7 +111,7 @@ img.landing-section-image-src {
 }
 
 .landing-section-content-subheader {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: var(--amber);
   margin-left: 0.75rem;
@@ -140,6 +144,9 @@ img.landing-section-image-src {
   padding: 1rem 1.75rem;
   background: var(--amber);
   border-radius: 3rem;
+
+  // visibilty of element is disable as of 20:10 2023/11/07
+  display: none;
 
   &:hover {
     transform: translateX(10px);
@@ -189,6 +196,7 @@ a.landing-section-links-container-link {
   font-size: 2.5rem;
   color: var(--white-smoke);
   filter: drop-shadow(0px 0px 4px black);
+  display: none;
 
   &:hover {
     color: var(--amber);
